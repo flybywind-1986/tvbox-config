@@ -1,0 +1,21 @@
+{
+  "name": "我的电视源",
+  "urls": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json",
+      "name": "qist/tvbox/fty"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/xiaosa/api.json",
+      "name": "qist/tvbox/api"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+      "name": "2hacc/TVBox/oktv"
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "home.jundie.top:81/top98"
+    }
+  ]
+}
