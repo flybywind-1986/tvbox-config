@@ -1,0 +1,13 @@
+﻿# 每行一个上游配置地址，格式：  地址 | 备注名
+# 以 # 开头的行会被忽略。脚本会逐个访问，只把"活着"的收进 config.json。
+#
+# 这里填你自己找的、或者你信任的公开配置地址。示例（把注释去掉并换成真实地址）：
+# https://example.com/tvbox/config.json | 我的主源
+# https://example.org/api.json | 备用源
+#
+# 支持"多仓"地址：脚本会自动展开它里面的子仓，再逐个验证。
+https://raw.githubusercontent.com/qist/tvbox/master/fty.json
+https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json
+https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json
+http://home.jundie.top:81/top98.json
+
