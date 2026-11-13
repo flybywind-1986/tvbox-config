@@ -1,8 +1,8 @@
 # 源存活报告
 
-更新时间：2026-11-13 14:18:34 UTC
+更新时间：2026-11-13 14:24:19 UTC
 
-可用：**8** 条，失效：**1** 条。
+可用：**9** 条，失效：**1** 条。
 
 ## 可用
 
@@ -16,6 +16,7 @@
 | szyyds/x | 62 | https://szyyds.cn/tv/x.json |
 | 2hacc/oktv | 41 | https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json |
 | jundie/top98 | 24 | http://home.jundie.top:81/top98.json |
+| cxkjg/tvbox | ? | https://ys.cxkjg.cn/api/provide/tvbox |
 
 ## 失效
 

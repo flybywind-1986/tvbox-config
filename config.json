@@ -32,6 +32,10 @@
     {
       "url": "http://home.jundie.top:81/top98.json",
       "name": "jundie/top98"
+    },
+    {
+      "url": "https://ys.cxkjg.cn/api/provide/tvbox",
+      "name": "cxkjg/tvbox"
     }
   ]
 }
