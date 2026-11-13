@@ -1,0 +1,5 @@
+# 这些源在中国能访问，但 GitHub 的服务器解析不了（或经常超时），
+# 所以每 6 小时的自动验证会把它们判成"失效"。
+# 列在这里的地址会被无条件保留进 config.json。
+
+https://ys.cxkjg.cn/api/provide/tvbox | cxkjg/tvbox
