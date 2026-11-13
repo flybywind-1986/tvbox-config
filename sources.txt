@@ -9,7 +9,6 @@ https://qist.wyfc.qzz.io/jsm.json | qist/jsm
 https://qist.wyfc.qzz.io/xiaosa/api.json | qist/xiaosa
 https://qist.wyfc.qzz.io/fty.json | qist/fty
 https://szyyds.cn/tv/x.json | szyyds/x
-https://ys.cxkjg.cn/api/provide/tvbox | cxkjg/tvbox
 https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json | 2hacc/oktv
 http://home.jundie.top:81/top98.json | jundie/top98
 # rebuilt at 2026-11-13 22:24
