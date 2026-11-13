@@ -22,6 +22,7 @@ import urllib.error
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SOURCES = os.path.join(ROOT, "sources.txt")
+TRUSTED = os.path.join(ROOT, "trusted.txt")
 CONFIG = os.path.join(ROOT, "config.json")
 REPORT = os.path.join(ROOT, "report.md")
 TIMEOUT = 15
@@ -159,6 +160,20 @@ def build():
             continue
         seen.add(s["url"])
         expand(s, seen, alive, dead)
+
+    # trusted.txt：只在中国能解析的源（GitHub runner 验证不到），照样保留
+    if os.path.exists(TRUSTED):
+        have = {a["url"] for a in alive}
+        with open(TRUSTED, "r", encoding="utf-8-sig") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                bits = line.split("|")
+                u = bits[0].strip()
+                if u and u not in have:
+                    alive.append({"url": u, "name": (bits[1].strip() if len(bits) > 1 else default_name(u)), "sites": "?"})
+                    have.add(u)
 
     config = {
         "name": "我的电视源",
