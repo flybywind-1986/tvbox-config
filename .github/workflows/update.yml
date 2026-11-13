@@ -35,3 +35,13 @@ jobs:
             git commit -m "chore: refresh source config [skip ci]"
             git push
           fi
+
+      - name: Sync to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "$GITEE_TOKEN" ]; then
+            echo "GITEE_TOKEN 未配置，跳过 Gitee 同步（在仓库 Settings → Secrets 里加一个就能自动同步）"
+            exit 0
+          fi
+          python scripts/push_gitee.py
