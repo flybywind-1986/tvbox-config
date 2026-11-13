@@ -13,6 +13,7 @@
 """
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -88,6 +89,11 @@ def read_sources():
     return out
 
 
+def _strip_comments(text):
+    text = re.sub(r"/\*.*?\*/", "", text, flags=re.S)
+    return "\n".join(l for l in text.splitlines() if not l.strip().startswith("//"))
+
+
 def fetch_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json,*/*"})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
@@ -99,7 +105,11 @@ def fetch_json(url):
     text = raw.decode("utf-8-sig", "replace").lstrip("\ufeff").strip()
     if not text:
         raise ValueError("空响应")
-    return json.loads(text)
+    try:
+        return json.loads(text)
+    except ValueError:
+        # 很多 TVBox 配置带 // 注释，App 侧能容忍，这里也宽松一次
+        return json.loads(_strip_comments(text))
 
 
 def looks_like_config(obj):
