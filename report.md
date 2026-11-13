@@ -1,8 +1,8 @@
 # 源存活报告
 
-更新时间：2026-11-13 14:24:19 UTC
+更新时间：2026-11-13 14:25:01 UTC
 
-可用：**9** 条，失效：**1** 条。
+可用：**9** 条，失效：**0** 条。
 
 ## 可用
 
@@ -22,4 +22,3 @@
 
 | 名称 | 原因 | 地址 |
 |---|---|---|
-| cxkjg/tvbox | <urlopen error [Errno -3] Temporary failure in name resolution> | https://ys.cxkjg.cn/api/provide/tvbox |
