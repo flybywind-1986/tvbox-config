@@ -1,6 +1,6 @@
 # 源存活报告
 
-更新时间：2026-11-16 21:55:53 UTC
+更新时间：2026-11-17 07:45:39 UTC
 
 可用：**9** 条，失效：**0** 条。
 
@@ -10,8 +10,8 @@
 |---|---|---|
 | kstore/newwex | 100 | https://9280.kstore.vip/newwex.json |
 | liucn/box | 234 | https://raw.liucn.cc/box/m.json |
-| qist/jsm | 162 | https://qist.wyfc.qzz.io/jsm.json |
-| qist/xiaosa | 116 | https://qist.wyfc.qzz.io/xiaosa/api.json |
+| qist/jsm | 163 | https://qist.wyfc.qzz.io/jsm.json |
+| qist/xiaosa | 117 | https://qist.wyfc.qzz.io/xiaosa/api.json |
 | qist/fty | 49 | https://qist.wyfc.qzz.io/fty.json |
 | szyyds/x | 62 | https://szyyds.cn/tv/x.json |
 | 2hacc/oktv | 41 | https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json |
