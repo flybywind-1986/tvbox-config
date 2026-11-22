@@ -1,6 +1,6 @@
 # 源存活报告
 
-更新时间：2026-11-22 06:33:12 UTC
+更新时间：2026-11-22 19:28:05 UTC
 
 可用：**9** 条，失效：**0** 条。
 
@@ -8,7 +8,7 @@
 
 | 名称 | 站点数 | 地址 |
 |---|---|---|
-| kstore/newwex | 100 | https://9280.kstore.vip/newwex.json |
+| kstore/newwex | 99 | https://9280.kstore.vip/newwex.json |
 | liucn/box | 234 | https://raw.liucn.cc/box/m.json |
 | qist/jsm | 162 | https://qist.wyfc.qzz.io/jsm.json |
 | qist/xiaosa | 116 | https://qist.wyfc.qzz.io/xiaosa/api.json |
