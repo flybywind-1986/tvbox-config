@@ -1,6 +1,6 @@
 # 源存活报告
 
-更新时间：2026-11-21 19:05:24 UTC
+更新时间：2026-11-22 06:33:12 UTC
 
 可用：**9** 条，失效：**0** 条。
 
@@ -12,7 +12,7 @@
 | liucn/box | 234 | https://raw.liucn.cc/box/m.json |
 | qist/jsm | 162 | https://qist.wyfc.qzz.io/jsm.json |
 | qist/xiaosa | 116 | https://qist.wyfc.qzz.io/xiaosa/api.json |
-| qist/fty | 49 | https://qist.wyfc.qzz.io/fty.json |
+| qist/fty | 50 | https://qist.wyfc.qzz.io/fty.json |
 | szyyds/x | 62 | https://szyyds.cn/tv/x.json |
 | 2hacc/oktv | 41 | https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json |
 | jundie/top98 | 24 | http://home.jundie.top:81/top98.json |
